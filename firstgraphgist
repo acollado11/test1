@@ -1,0 +1,12 @@
+== My First GraphGist
+
+ Neo4j: image::http://neo4j.com/logo.png[]
+
+ //setup
+ [source,cypher]
+ ----
+ CREATE (p:Person {name:"I"})-[:LIKES]->(neo:Database {name:"Neo4j"})
+ RETURN *
+ ----
+ //graph
+ 
